@@ -4,13 +4,13 @@ class seeds{
     protected $name;
     
     //Set function
-    public function setSeeds($seeds) {
+    public function setName($seeds) {
         $this->seeds = $seeds; return $this;
         
     }
     
     //Get Function
-    public function getSeeds(){ return $this->seeds; }
+    public function getName(){ return $this->seeds; }
 }
 
 /* 
