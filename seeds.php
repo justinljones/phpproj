@@ -5,12 +5,12 @@ class seeds{
     
     //Set function
     public function setName($seeds) {
-        $this->seeds = $seeds; return $this;
+        $this->name = $name; return $this;
         
     }
     
     //Get Function
-    public function getName(){ return $this->seeds; }
+    public function getName(){ return $this->name; }
 }
 
 /* 

@@ -7,7 +7,7 @@
  $seeds=new seeds();
  $seeds->setName('Johnny');
  $apple->addSeeds($seeds);
- echo "This apple's seed's name is ".$apple->getName();
+ echo "This apple's seed's name is ".$apple->getSeeds();
 /* 
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
