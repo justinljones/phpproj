@@ -2,11 +2,26 @@
 
 class apple{
     protected $color;
-    protected $weight;
-    protected $size;
+    protected $seeds=Array();
     
-    public function setColor($color) {$this->color = $color; return $this;}
+    //Functions for $color
+    public function setColor($color) {
+        $this->color = $color; return $this;
+        
+    }
     public function getColor(){ return $this->color; }
+    
+    //Functions for $seeds
+    public function setSeeds(Seeds $seeds) {
+        $this->seeds = $seeds; return $this;
+    }
+    
+    public function getSeeds() { return $this->seeds; }
+    
+    public function addSeeds(Seeds $seeds){
+        $this->seeds[] = $seeds; return $seeds;
+    }
+
 }
 
 /* 
