@@ -4,7 +4,7 @@ class seeds{
     protected $name;
     
     //Set function
-    public function setName($seeds) {
+    public function setName($name) {
         $this->name = $name; return $this;
         
     }
